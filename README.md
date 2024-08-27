@@ -28,4 +28,25 @@ A cloud-based wallet system developed using Java and Spring Boot. This project i
    ```bash
    git clone https://github.com/yourusername/fintech-application.git
 
+2. Navigate to the project directory:
+
+   ```bash
+   cd fintech-application
+
+3. Configure the application.properties file:
+   ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/fintech_db
+   spring.datasource.username=root
+   spring.datasource.password=yourpassword
+
+4. Run the application:
+   ```bash
+   mvn spring-boot:run
+   
+## API Documentation
+Swagger is integrated for API documentation. Once the application is running, you can access the documentation at:
+```bash
+http://localhost:8080/swagger-ui.html
+
+
 
